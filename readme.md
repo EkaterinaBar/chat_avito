@@ -30,5 +30,4 @@ curl --header "Content-Type: application/json" --request POST --data "{\"user\":
 Получить список сообщений в конкретном чате:
 ```
 curl --header "Content-Type: application/json" --request POST --data "{\"chat\": \"1\"}" http://localhost:9000/messages/get
-
 ```
